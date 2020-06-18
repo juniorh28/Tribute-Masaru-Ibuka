@@ -1,0 +1,38 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    background-color: hsl(10, 50%, 95%);
+    color: black;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+}
+/* For mobile phones: */
+@media only screen and (max-width:500px) {
+    .menu, #main, .right {
+      max-width: 100%;
+    }
+  }
+#image{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height:25%;
+    width:25%;
+}
+#timeline{
+    background-color: hsl(0, 6%, 73%);
+    text-align: center;
+    font-size:16px;
+}
+#img-div{
+    background-color: hsl(7, 12%, 87%);
+    font-size: 30px;
+}
+ul{
+    text-align: left;
+}
+li{
+    padding-bottom: 5px;
+}
+#tribute-link:hover{
+    font-size: 16px;
+}
